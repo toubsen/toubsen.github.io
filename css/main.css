@@ -40,7 +40,6 @@ header {
   width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
-  margin: 0 0 40px 0;
 }
 
 header h1 {
@@ -62,10 +61,26 @@ header h1:before {
   font-size: 24px;
 }
 
+header h1 > a {
+  color: #b5e853;
+  text-decoration: none;
+}
+
 header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+}
+
+nav {
+  border-bottom: 1px dashed #b5e853;
+  margin: 0 0 40px 0;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 #downloads .btn {
