@@ -5,6 +5,7 @@
     {% for post in site.posts %}
     <url>
         <loc>http://www.toubsen.de{{ post.url | remove: 'index.html' }}</loc>
+        <lastmod>{{ post.date | date:"%F" }}</lastmod>
     </url>
     {% endfor %}
 
@@ -13,6 +14,7 @@
     {% if page.layout != 'feed' %}
     <url>
         <loc>http://www.toubsen.de{{ page.url | remove: 'index.html' }}</loc>
+        <lastmod>{{ site.time | date:"%F" }}</lastmod>
     </url>
     {% endif %}
     {% endif %}
