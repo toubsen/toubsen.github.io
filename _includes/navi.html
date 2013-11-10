@@ -1,2 +1,5 @@
-<a href="/">Home</a>
-<a href="/posts.html">Posts</a>
+{% assign sorted_pages = site.pages | sort:"name" %}
+{% for p in sorted_pages %}
+  <a href="{{ p.url }}">{{ p.title }}</a>
+{% endfor %}
+
