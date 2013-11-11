@@ -4,7 +4,9 @@ title: Posts
 permalink: posts.html
 ---
 
-<h1>Posts</h1>
+Posts
+=====
+
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
