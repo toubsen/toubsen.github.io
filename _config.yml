@@ -10,7 +10,7 @@ gems:
   - jekyll-redirect-from
 
 # Permalinks
-permalink:        pretty
+permalink:        date
 paginate_path:    'posts/:num'
 
 # Setup
