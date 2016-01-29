@@ -1,4 +1,25 @@
-name: toubsen.de
-markdown: redcarpet
-pygments: true
-timezone: Europe/Berlin
+# Base settings
+name:             toubsen.de
+timezone:         Europe/Berlin
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+gems:
+  - jekyll-paginate
+
+# Permalinks
+permalink:        pretty
+paginate_path:    'posts/:num'
+
+# Setup
+title:            TV
+tagline:          'toubsen.de'
+description:      'gnothi seauton'
+url:              http://www.toubsen.de
+
+author:
+  name:           'Tobias Varol'
+  url:            https://twitter.com/tobiasvarol
+
+paginate:         5

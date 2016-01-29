@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: page
 title: Home
 permalink: index.html
 ---
-
-Featured quote
-==============
 
 > One's philosophy is not best expressed in words; it is expressed in the
 > choices one makes. In stopping to think through the meaning of what I have

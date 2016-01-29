@@ -1,12 +1,9 @@
 ---
-layout: default
+layout: page
 title: Contact
 permalink: contact.html
 ---
 
-Contact
-=======
-
-* [Xing Profile](https://www.xing.com/profiles/Tobias_Vogel9)
+* [Xing Profile](https://www.xing.com/profiles/Tobias_Varol)
 * [Github Profile](https://github.com/toubsen)
-* [Twitter](https://twitter.com/tibotabo) (rarely used)
+* [Twitter](https://twitter.com/tobiasvarol) (rarely used)
