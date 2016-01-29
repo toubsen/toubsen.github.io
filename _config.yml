@@ -7,6 +7,7 @@ markdown:         redcarpet
 highlighter:      pygments
 gems:
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Permalinks
 permalink:        pretty
