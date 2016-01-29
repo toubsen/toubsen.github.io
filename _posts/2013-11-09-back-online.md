@@ -4,6 +4,7 @@ title:  "Back online"
 date:   2013-11-09 00:19:18
 categories: website
 tags: github,jekyll
+redirect_from: "/website/2013/11/09/back-online.html"
 ---
 
 {% highlight PHP %}
