@@ -8,6 +8,7 @@ highlighter:      pygments
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Permalinks
 permalink:        date
