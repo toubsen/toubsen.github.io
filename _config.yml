@@ -3,7 +3,7 @@ name:             toubsen.de
 timezone:         Europe/Berlin
 
 # Dependencies
-#markdown:         redcarpet
+markdown:         kramdown
 highlighter:      rouge
 gems:
   - jekyll-paginate
