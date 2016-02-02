@@ -6,9 +6,9 @@ categories: website
 tags: github,jekyll
 ---
 
-{% highlight php %}
+```PHP
 echo 'Hello world';
-{% endhighlight %}
+```
 
 I'm back online with my website. Hosted at [github][github] now, built with [Jekyll][jekyll].
 
