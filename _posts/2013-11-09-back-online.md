@@ -6,7 +6,8 @@ categories: website
 tags: github,jekyll
 ---
 
-```PHP
+```php
+<?php
 echo 'Hello world';
 ```
 
