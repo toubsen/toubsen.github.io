@@ -7,6 +7,7 @@ tags: github,jekyll
 ---
 
 ```php
+<?php
 echo 'Hello world';
 ```
 
