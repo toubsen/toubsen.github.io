@@ -2,18 +2,27 @@
 name:             toubsen.de
 timezone:         Europe/Berlin
 
-# Dependencies
+# gh-pages config
 markdown:         kramdown
+kramdown:
+  input:          GFM
+  hard_wrap:      false
 highlighter:      rouge
+sass:
+  sass_dir:       _sass
+  style:          compressed
+
+# Dependencies
 gems:
+  - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
 
 # Permalinks
-permalink:        date
-paginate_path:    'posts/:num'
+permalink:         /blog/:year/:month/:day/:title.html
+paginate_path:    'blog/:num'
 
 # Setup
 title:            TV

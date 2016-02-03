@@ -32,6 +32,9 @@
  */
 
 html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.fonts-loaded body {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
@@ -80,8 +83,11 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: serif;
   font-size: 3.25rem;
+}
+.fonts-loaded .sidebar-about h1 {
+  font-family: "Abril Fatface", serif;
 }
 
 /* Sidebar nav */
