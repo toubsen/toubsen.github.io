@@ -35,3 +35,7 @@ author:
   url:            https://twitter.com/tobiasvarol
 
 paginate:         5
+
+# Exclude IDE files from generating
+exclude:
+  - .c9
